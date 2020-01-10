@@ -6,7 +6,14 @@
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
+<div>
+  <h1>My Quotes</h1>
+  <ul>
+      <li *ngFor='let quote of quotes'>
+        {{quote}}
+      </li>
+  </ul>
+</div>
 <style>
   :host {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -294,6 +301,8 @@
     }
   }
 </style>
+
+
 
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
