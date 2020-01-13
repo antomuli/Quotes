@@ -33,6 +33,7 @@ This site was built using github pages:
 
 ##### CODEBEAT
 
+[![codebeat badge](https://codebeat.co/badges/64f95c28-185a-45ab-b7e3-e64f9098cb58)](https://codebeat.co/projects/github-com-antomuli-quotes-master)
 
 
 
