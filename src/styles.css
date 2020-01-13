@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
 body {
   background-image: linear-gradient(orange, blue, grey);
   background-repeat: no-repeat;
@@ -6,4 +7,4 @@ body {
   background-size: cover;
 }
 
-@import "~bootstrap/dist/css/bootstrap.css";
+
