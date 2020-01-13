@@ -1,21 +1,22 @@
 <div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <h1>My Quotes</h1>
+    <h1>My Quotes</h1>
+    <div class="row">
+      <div class="col-md-6">
       <hr>
       <ul>
         <div *ngFor='let quote of quotes;let i = index'>
-          <li id={{i}}appStrikethrough>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</li>
-          <button (click)='toggleDetails(i)'>Toggle Details</button>
+          <div id={{i}}appStrikethrough>{{quote.quote}}</div>
+          <button (click)='toggleDetails(i)' class="btn btn-primary">Show quotes detail!</button>
           <app-quotes-detail *ngIf='quote.showAuthor' [quote]='quote' (isComplete)='deleteQuote($event,i)'>
           </app-quotes-detail>
         </div>
       </ul>
+    </div>
+
       <div class="col-md-6">
         <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
       </div>
       <p *ngIf='quotes.length > 8'>You have more than enough quotes!</p>
-    </div>
   </div>
 </div>
 

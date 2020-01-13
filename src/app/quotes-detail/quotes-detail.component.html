@@ -1,5 +1,17 @@
-<p>{{quote.author}}</p>
-<p>This quote was made complete in {{quote.completeDate|dateCount}} days</p>
-<button (click)='quoteComplete(true)' class="btn btn-outline-success">Complete</button>
-<button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete Quote</button>
+<p class="author"><span style="font-weight: bold;">Author:</span> {{quote.author}}</p>
+<p><span style="font-weight: bold;">Posted by:</span> {{quote.name}}</p>
+<p>This quote was posted {{quote.completeDate|dateCount}} days ago.</p>
+<div class="buttons">
+<button id="btn" class="btn btn-info" (click)="voteUp()" type="submit">
+  <span class="glyphicon glyphicon-thumbs-u" aria hidden="true"></span>
+  <span class="badge">{{upvote}} Upvotes</span>
+</button>
+<button id="btn" class="btn btn-info" (click)="voteDown()" type="submit">
+  <span class="badge">{{downvote}} Downvotes</span>
+</button>
+<button (click)='quoteComplete(true)' class="btn btn-outline-success delete"><i class="fa fa-trash" aria-hidden="true"></i></button>
+</div>
+
+
+<!-- <p>This Quote was added {{quote.completeDate|dateCount}} day/days ago by {{quote.name}}.</p> -->
 
