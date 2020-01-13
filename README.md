@@ -38,6 +38,7 @@ This site was built using github pages:
 
 
 **The following include the list of technologies used:**
+
 1.Angular.
 
 2.Bootsrap.
