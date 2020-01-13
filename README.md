@@ -1,5 +1,5 @@
 # Project Name.
-Quotes
+**Quotes**
 
 ## Author's Details.
 Name: *Anthony Muli.*
@@ -19,44 +19,17 @@ An Angular Application that aids users to read and create **new inspirational qu
 
 3.In antomuli's repositories,git clone the Quotes repository into your you *-local repository-* which is your machine(computer) /git clone the following link:***https://github.com/antomuli/Quotes.git***
 
+4.Type npm install in the terminal.
+
 ***BDD***
 ## project screenshot
 
-<!-- ![Landing](images/Order.jpg)
 
 
-
-Curious! Curiosity has its own reason for exciting..Find out what's yours!
-
-
-
-![Destination](images/Location.jpg)
-
-
-
-The ultimate guide to ***PIZZAP*** best pizza places.
-
-
-
-![Yummies](images/Hot_Menus.jpg)
-
-
-
-Every pizza is a personal pizza...
-                                  If you try hard and believe in yourself.
-
-
-![Munch](images/MakeOrder.jpg)
-
-
-
-The **Noblest Pleasure** is the joy of Pizza!
- -->
-
-##### Live Link to PIZZAP.
+##### Live Link to Quotes.
 The following is the live link to the project "Quotes":
 This site was built using github pages:
- <!-- https://antomuli.github.io/PIZZAP/ -->
+https://antomuli.github.io/Quotes/
 
 ##### CODEBEAT
 
