@@ -22,7 +22,7 @@ An Angular Application that aids users to read and create **new inspirational qu
 4.Type npm install in the terminal.
 
 ***BDD***
-## project screenshot
+Enter the author of the quote in the first placeholder followed by the quote itself in the second placeholder,your official name and the date of quote entry.Finally click on the AddnewQuote to add it in my Quotes to be either voted or downvoted by the users!
 
 
 
@@ -37,24 +37,16 @@ This site was built using github pages:
 
 
 **The following include the list of technologies used:**
-1.html.5
+1.Angular.
 
-2.CSS.
+2.Bootsrap.
 
-3.Bootsrap Version 4.3.1
-
-4.Javascript.
-
-5.JQuery.
-
-
-![technologies](images/download.jpg)
 
 ***Known Bugs***
 
-<!-- 1.The page is 15% unresponsive.
+1.The page is 10% unresponsive.
 
-2.Not all flavour,toppings and crust is included. -->
+2.The application doesn't indicate the quote with the highestnumber of votes!
 
 ###### LICENSE AND COPY RIGHT INFO.
 MIT License
