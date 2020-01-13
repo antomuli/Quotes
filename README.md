@@ -2,7 +2,7 @@
 **Quotes**
 
 ## Author's Details.
-Name: *Anthony Muli.*
+Name: **Anthony Muli.**
 
 Email: *mulianthony561@gmail.com*
 
@@ -23,7 +23,7 @@ An Angular Application that aids users to read and create **new inspirational qu
 
 ***BDD***
 
-Enter the author of the quote in the first placeholder followed by the quote itself in the second placeholder,your official name and the date of quote entry.Finally click on the AddnewQuote to add it in my Quotes to be either voted or downvoted by the users!
+Enter the **author** of the quote in the first placeholder followed by the quote itself in the second placeholder,**your official name** and the **date of quote entry**.Finally click on the AddnewQuote to add it in my Quotes to be either voted or downvoted by the users!
 
 
 
@@ -47,14 +47,14 @@ This site was built using github pages:
 
 ***Known Bugs***
 
-1.The page is 10% unresponsive.
+1.The page is *10% unresponsive.*
 
-2.The application doesn't indicate the quote with the highestnumber of votes!
+2.The application doesn't indicate the quote with the -*highestnumber of votes!-*
 
 ###### LICENSE AND COPY RIGHT INFO.
 MIT License
 
-Copyright (c) 2020 Moringa School-Anthony
+Copyright (c) 2020 Moringa School-***Anthony***
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), 
 to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
