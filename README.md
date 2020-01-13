@@ -22,6 +22,7 @@ An Angular Application that aids users to read and create **new inspirational qu
 4.Type npm install in the terminal.
 
 ***BDD***
+
 Enter the author of the quote in the first placeholder followed by the quote itself in the second placeholder,your official name and the date of quote entry.Finally click on the AddnewQuote to add it in my Quotes to be either voted or downvoted by the users!
 
 
@@ -41,7 +42,7 @@ This site was built using github pages:
 
 1.Angular.
 
-2.Bootsrap.
+2.Bootstrap.
 
 
 ***Known Bugs***
