@@ -29,7 +29,7 @@ An Angular Application that aids users to read and create **new inspirational qu
 ##### Live Link to Quotes.
 The following is the live link to the project "Quotes":
 This site was built using github pages:
-https://antomuli.github.io/Quotes/
+ https://antomuli.github.io/Quotes/
 
 ##### CODEBEAT
 
